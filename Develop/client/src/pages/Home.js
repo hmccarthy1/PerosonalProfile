@@ -30,7 +30,7 @@ const Home = () => {
     <div className='mainRouter row'>
     
     <Header/>
-    <Section/>
+    
   
     </div>
   );

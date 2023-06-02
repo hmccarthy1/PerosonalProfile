@@ -1,3 +1,26 @@
 .dark {
     background-color: #111 !important;
 }
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: '20pt';
+    object-fit: cover;
+}
+
+.slide {
+    height: 30vh;
+}
+
+.carousel-inner, .carousel-item{
+    max-height: 100% !important;
+    max-width: 100% !important;
+    height: 100%;
+}
+
+span {
+
+    color: white !important;
+    
+}

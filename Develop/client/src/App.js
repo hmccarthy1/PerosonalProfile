@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
 import Home from './pages/Home';
-
+import AboutMe from './pages/aboutme';
 
 function App() {
   return (
@@ -15,6 +15,12 @@ function App() {
           <Route 
             path="/" 
             element={<Home />} 
+          />
+          <Route 
+          path='/aboutme'
+          element={<AboutMe/>}
+
+
           />
         </Routes>
       </div>
