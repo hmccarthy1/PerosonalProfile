@@ -1,6 +1,8 @@
 import React from 'react'
 const ContactForm = () => {
-  const [formStatus, setFormStatus] = React.useState('Send')
+  const [formStatus, setFormStatus] = React.useState('Send');
+console.log(process.env.emailPass, 'pass')
+
   const onSubmit = (e) => {
     e.preventDefault()
     setFormStatus('Submitting...')
