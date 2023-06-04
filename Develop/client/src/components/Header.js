@@ -19,7 +19,7 @@ const linkStyles = {
 function Header() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" className='col-12 dark' style={{height: '10vh',
+      <Navbar bg="dark" variant="dark" className='col-12 dark' style={{height: '5vh',
     backgroundColor: '#111 !important'}}>
         <Container className='justify-content-between col-lg-10 col-xl-8 '>
           <Navbar.Brand href="#home" className='' style={brandStyle.style}>Hunter McCarthy</Navbar.Brand>

@@ -7,11 +7,19 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutMe from './pages/aboutme';
 import Contact from './pages/contact';
+import Footer from './components/footer';
+import Header from './components/Header';
+import Resume from './pages/resume';
 
 function App() {
   return (
     <Router>
-      <div className=" col-12 min-100-vh">
+      
+      <Header></Header>
+
+      <div className=" col-12  content-container" >
+
+      
         <Routes>
           <Route 
             path="/" 
@@ -25,8 +33,15 @@ function App() {
           path='/contact'
           element={<Contact/>}
           />
+          <Route
+          path='/resume'
+          element={<Resume/>}
+          />
         </Routes>
+
       </div>
+
+      <Footer></Footer>
     </Router>
   );
 }

@@ -10,7 +10,7 @@ const Contact = () => {
 return (
     <div className='mainRouter row'>
         
-        <Header></Header>
+     
         <ContactForm></ContactForm>
         
       
