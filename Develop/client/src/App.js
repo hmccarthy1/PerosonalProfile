@@ -10,6 +10,7 @@ import Contact from './pages/contact';
 import Footer from './components/footer';
 import Header from './components/Header';
 import Resume from './pages/resume';
+import Portfolio from './pages/portfolio';
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
           <Route
           path='/resume'
           element={<Resume/>}
+          />,
+          <Route
+          path='portfolio'
+          element={<Portfolio/>}
           />
         </Routes>
 
