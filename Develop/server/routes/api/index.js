@@ -19,7 +19,7 @@ async function main() {
     service: 'hotmail',
     auth: {
         user: 'huntermccarthy56@hotmail.com',
-        pass: 
+        pass: process.env.emailPass
     }
 
 });
