@@ -12,6 +12,7 @@ import Header from './components/Header';
 import Resume from './pages/resume';
 import Portfolio from './pages/portfolio';
 
+
 function App() {
   return (
     <Router>
