@@ -6,7 +6,7 @@ require('dotenv').config({path: '../.env'});
 
 // Uncomment the following code once you have built the queries and mutations in the client folder
 // const { typeDefs, resolvers } = require('./schemas');
-const db = require('./config/connection');
+
 
 // Comment out this code once you have built out queries and mutations in the client folder
 const routes = require('./routes');
@@ -52,9 +52,7 @@ const startApolloServer = async () => {
 */
 
 // Comment out this code once you have built out queries and mutations in the client folder
-db.once('open', () => {
   app.listen(PORT, () => console.log(`Now listening on localhost: ${PORT}`));
-});
 
 // Uncomment the following code once you have built the queries and mutations in the client folder
 // startApolloServer();
