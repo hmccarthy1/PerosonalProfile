@@ -1,6 +1,5 @@
 {
-  "homepage": "https://hmccarthy1.github.io/personalprofile",
-  "name": "tech-matchup-app",
+  "name": "hunter-mccarthys-profile",
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
@@ -9,9 +8,7 @@
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
     "seed": "cd server && npm run seed",
-    "build": "cd client && npm run build",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build"
+    "build": "cd client && npm run build"
   },
   "author": "",
   "license": "ISC",
