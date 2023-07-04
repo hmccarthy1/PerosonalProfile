@@ -24,7 +24,7 @@ function Header() {
         <Container className='justify-content-between col-lg-10 col-xl-8 '>
           <Navbar.Brand href="#home" className='' style={brandStyle.style}>Hunter McCarthy</Navbar.Brand>
           <Nav className="d-flex col-4 justify-content-between">
-            <Nav.Link href="/aboutme" style={linkStyles.style} className={linkStyles.classList}>About me</Nav.Link>
+            <Nav.Link href="/" style={linkStyles.style} className={linkStyles.classList}>About me</Nav.Link>
             <Nav.Link href="/contact" style={linkStyles.style} className={linkStyles.classList}>Contact</Nav.Link>
             <Nav.Link href="/portfolio" style={linkStyles.style} className={linkStyles.classList}>Portfolio</Nav.Link>
             <Nav.Link href="/resume" style={linkStyles.style} className={linkStyles.classList}>Resume</Nav.Link>

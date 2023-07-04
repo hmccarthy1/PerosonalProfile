@@ -25,7 +25,7 @@ function App() {
         <Routes>
           <Route 
             path="/" 
-            element={<Home />} 
+            element={<AboutMe />} 
           />
           <Route 
           path='/aboutme'
