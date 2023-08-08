@@ -50,10 +50,20 @@ const classList = {
 
 function Section() {
 
+
     return (
 
+
+    
         <>
-        
+
+
+
+            {window.innerWidth > 992 ? 
+
+// CODE FOR XL SCREENS
+
+
         <section className='row col-12  justify-content-center' style={styles.aboutSection}>
 
             <div className={classList.section} style={styles.aboutMeSection}>
@@ -70,6 +80,7 @@ function Section() {
                     
                     </p>
                 </div>
+
                 
                 <div style={styles.aboutMeSection} className='col-6'>
 
@@ -92,14 +103,43 @@ function Section() {
                 
             </div>
         </section>
+
+        :
+
+// CODE FOR LG SCREENS
+
+        window.innerWidth > 768 && window.innerWidth <= 992 ?
+
+        <p>LG Screen</p>
+
+        :
+
+
+// CODE FOR MD SCREENS
+
+
+        window.innerWidth > 576 && window.innerWidth <= 768 ?
+
+        <p>MD Screen {window.innerWidth}</p>
+
+        : 
+
+
+// CODE FOR SM SCREENS
+
+
+        <p> SM screen {window.innerWidth}</p>
         
+    }
         
         
         </>
 
     )
-}
 
+
+
+}
 
 
 

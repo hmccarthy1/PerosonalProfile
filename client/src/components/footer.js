@@ -9,7 +9,7 @@ const styles = {
         color: 'white',
         height: '5vh',
         maxHeight: '5vh',
-        width: '100vw',
+        width: '100%',
         textAlign: 'center',
         alignItems: 'center',
         justifyContent: 'center'
